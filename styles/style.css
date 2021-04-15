@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;1,200&display=swap");
+
+@media (max-width: 720px) {
+  .container {
+    max-width: 720px;
+  }
+}
 body {
   background-image: linear-gradient(
     to right top,
@@ -17,8 +24,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  font-family: "Source Code Pro", monospace;
 }
 
 .text-center {
   text-align: center;
+}
+
+form {
 }
