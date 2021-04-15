@@ -32,4 +32,9 @@ body {
 }
 
 form {
+  background-color: #0087ff;
+  padding: 25px;
+  border-radius: 25px;
+  font-size: 18px;
+  color: white;
 }
